@@ -1,0 +1,22 @@
+Friend Trinity Dickinson
+CIS 36B-61Y, Professor Singh
+Assignment 1
+Due: 10/8/2017
+
+Part 1:
+
+	Design and Documentation:
+		Three functions were used to accomplish the goal of creating a loan amortization schedule: 
+
+			public static double[] inputInfo(): Scans in the users loan amount, the number of years, and the annual interest rate. The loan amount, number of years, and annual interest rate are added to a loanInfo array and that array is returned.
+
+			public static void processInfo(double[] loanInfo): Calculates the monthly interest rate, and from that the monthly and total payments. Both the monthly and total payments are added to the loanInfo array.
+
+			public static void printInfo(double[] loanInfo): Prints the monthly and total payment. Prints the table of Payment#, Interest, Principal, and Balance using a loop that repeats for the amount of years inputted converted to months. The monthly interest, principal, and balance are calculated each time with the method described in the textbook, using the values in the loanInfo array.
+
+Part 2:
+
+	Design and Documentation:
+		One function was used to accomplish the goal of implementing the Babylonian Square Root Method:
+
+			public static double sqrt(long n): Approximates the square root of a number by implementing the Babylonian Method as described in the textbook.

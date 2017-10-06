@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.*;
+
+public class Part1 {
+	public static void main(String[] args) {
+		double[] loanInfo = inputInfo();
+	}
+
+	public static double[] inputInfo() {
+		Scanner scan = new Scanner (System.in);
+		double[] loanInfo = new double[5];
+		System.out.printf("Loan Amount: ");
+		loanInfo[0] = scan.nextDouble();
+		double loanAmount = inputArray[0];
+		System.out.printf("%nNumber of Years: ");
+		loanInfo[1] = scan.nextDouble();
+		double numberOfYears = inputArray[1];
+		System.out.printf("%nAnnual Interest Rate: ");
+		loanInfo[2] = scan.nextDouble();
+		double monthlyInterestRate = ((inputArray[2])/1200);
+		
+		loanInfo[3] = (loanAmount * (monthlyInterestRate/(1-(1/Math.pow(1+monthlyInterestRate, numberOfYears*12)))));
+		loanInfo[4] = (monthlyPayment * numberOfYears * 12);
+		scan.close();
+		return loanInfo;
+	}
+	
+	public static void outputLoanInfo(double[] inputInfo, double[] ) {
+		
+	}
+}

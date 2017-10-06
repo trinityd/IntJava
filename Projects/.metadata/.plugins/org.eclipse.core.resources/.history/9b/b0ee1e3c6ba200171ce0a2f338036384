@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Part2 {
+	public static void main (String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.printf("Please enter an integer: ");
+		long x = scan.nextLong();
+		double xSquared = mySqrt(x);
+		System.out.printf("Squared: %.2f", xSquared);
+		scan.close();
+	}
+	
+	public static double mySqrt(long n) {
+		double lastGuess = 1;
+		double nextGuess = (lastGuess + n / lastGuess) / 2;
+		
+		System.out.println(Math.abs(nextGuess-lastGuess));
+		while (Math.abs(nextGuess-lastGuess) > 0.0001) {
+			lastGuess = nextGuess;
+			nextGuess = (lastGuess + n / lastGuess) / 2;
+		}
+		return lastGuess;
+	}
+}

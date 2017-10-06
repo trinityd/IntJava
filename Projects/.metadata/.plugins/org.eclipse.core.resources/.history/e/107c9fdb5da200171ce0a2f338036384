@@ -1,0 +1,50 @@
+import java.io.*;
+import java.util.*;
+
+public class Part1 {
+	public static void main(String[] args) {
+		double[] loanInfo = inputInfo();
+		processInfo(loanInfo);
+		printInfo(loanInfo);
+	}
+
+	public static double[] inputInfo() {
+		Scanner scan = new Scanner (System.in);
+		double[] loanInfo = new double[5];
+		loanInfo[0] = scan.nextDouble();
+		double loanAmount = loanInfo[0];
+		loanInfo[1] = scan.nextDouble();
+		double numberOfYears = loanInfo[1];
+		loanInfo[2] = scan.nextDouble();
+		double monthlyInterestRate = ((loanInfo[2])/1200);
+		
+		double montlyPayment = (loanAmount * (monthlyInterestRate/(1-(1/Math.pow(1+monthlyInterestRate, numberOfYears*12)))));
+		loanInfo[3] = monthlyPayment;
+		double totalPayment = (monthlyPayment * numberOfYears * 12);
+		loanInfo[4] = totalPayment;
+		
+		scan.close();
+		return loanInfo;
+	}
+	
+	public static void processInfo(double[] loanInfo) {
+		double loanAmount = loanInfo[0];
+		double numberOfYears = loanInfo[1];
+		double monthlyInterestRate = ((loanInfo[2])/1200);
+		
+		double montlyPayment = (loanAmount * (monthlyInterestRate/(1-(1/Math.pow(1+monthlyInterestRate, numberOfYears*12)))));
+		loanInfo[3] = monthlyPayment;
+		double totalPayment = (monthlyPayment * numberOfYears * 12);
+		loanInfo[4] = totalPayment;		
+	}
+	
+	public static void printInfo(double[] loanInfo) {
+		System.out.printf("Loan Amount: %d%n", loanInfo[0]);
+		System.out.printf("Number of Years: %d%n", loanInfo[1]);
+		System.out.printf("Annual Interest Rate: %d%n", loanInfo[2]);
+		System.out.printf("Monthly Payment: %d%n", loanInfo[3]);
+		System.out.printf("Total Payment: %d%n", loanInfo[4]);
+		
+		System.out.printf("%-12s%-12s%-12s%-12s", "Payment#", "Interest", "Principal", "Balance");
+	}
+}

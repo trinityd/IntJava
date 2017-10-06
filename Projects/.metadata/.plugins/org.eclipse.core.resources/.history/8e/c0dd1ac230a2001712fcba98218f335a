@@ -1,0 +1,6 @@
+import java.io.*;
+import java.util.*;
+
+public class Testing {
+	System.out.println("Hello World!");
+}

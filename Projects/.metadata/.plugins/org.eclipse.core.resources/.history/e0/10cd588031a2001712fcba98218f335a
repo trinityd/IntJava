@@ -1,0 +1,9 @@
+import java.io.*;
+import java.util.*;
+
+public class Testing {
+	public static main(String[] args) {
+		System.out.println("Hello World!");
+		return 0;
+	}
+}

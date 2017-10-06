@@ -1,0 +1,73 @@
+Friend Trinity Dickinson
+CIS 36B-61Y, Professor Singh
+Assignment 2
+Due: 10/20/2017
+
+	Part 1:
+
+Please enter a name: 
+Joe
+Please enter an address: 
+123 Ave
+Please enter an age: 
+18
+Please enter a phone number: 
+12345678
+
+Name: Joe
+Address: 123 Ave
+Age: 18
+Phone Number: 12345678
+
+Please enter a name: 
+Jimothy
+Please enter an address: 
+786 Way
+Please enter an age: 
+78
+Please enter a phone number: 
+(784)-291-0987
+
+Name: Jimothy
+Address: 786 Way
+Age: 78
+Phone Number: (784)-291-0987
+
+Please enter a name: 
+Tomothy
+Please enter an address: 
+55 Street
+Please enter an age: 
+12
+Please enter a phone number: 
+(222)333-6722
+
+Name: Tomothy
+Address: 55 Street
+Age: 12
+Phone Number: (222)333-6722
+
+
+	Part 2:
+
+Side Up: heads
+Side Up: tails
+Side Up: tails
+Side Up: tails
+Side Up: heads
+Side Up: heads
+Side Up: heads
+Side Up: heads
+Side Up: heads
+Side Up: tails
+Side Up: tails
+Side Up: tails
+Side Up: heads
+Side Up: heads
+Side Up: tails
+Side Up: tails
+Side Up: tails
+Side Up: tails
+Side Up: heads
+Side Up: heads
+Number of Heads: 10 Number of Tails: 10

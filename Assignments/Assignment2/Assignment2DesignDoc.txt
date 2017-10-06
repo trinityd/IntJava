@@ -1,0 +1,14 @@
+Friend Trinity Dickinson
+CIS 36B-61Y, Professor Singh
+Assignment 2
+Due: 10/20/2017
+
+Part 1:
+
+	Design and Documentation:
+		To build the PersonalInfo class, simple get and set methods were made for its variables: name, address, age and phone number. A default constructor and parameterized constructor were also made. See PersonalInfo.java for these methods.
+
+Part 2:
+
+	Design and Documentation:
+		To build the Coin class, a constructor that set the only variable (which side of the coin is up), a get method to return that variable, a toss method, and a method that repeats and prints the result of that tossing 20 times in a row were all created. See Coin.java for these methods.

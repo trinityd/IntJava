@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+
+public class Part1 {
+	public static void main(String[] args) {
+		int loanAmount = intInput();
+	}
+	
+	public static int intInput() {
+		Scanner scan = new Scanner (System.in);
+		
+	}
+}

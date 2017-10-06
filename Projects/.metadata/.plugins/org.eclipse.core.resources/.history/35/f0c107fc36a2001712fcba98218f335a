@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Testing {
+	public static void main (String[] args) {
+
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Please enter the amount of names.");
+		String amt = scan.nextLine();
+		for (int i = 0; i < amt; i++) {
+			System.out.println("Please enter a name.");
+			String name = scan.nextLine();
+
+			ArrayList nameList = new ArrayList();
+			nameList.add(name);
+		}
+		scan.close();
+		for (int i = 0; i < nameList.size(); i++)
+		{
+			System.out.printf("Hello, %s/n", nameList.get(i));
+		}
+	}
+}
