@@ -5,10 +5,10 @@
 //Due: 10/20/2017
 
 public class PersonalInfo {
-	public String name;
-	public String address;
-	public int age;
-	public String num;
+	private String name;
+	private String address;
+	private int age;
+	private String num;
 
 	public PersonalInfo()
 	{
@@ -25,7 +25,15 @@ public class PersonalInfo {
 		this.age = age;
 		this.num = num;
 	}
-
+	
+	public void printInfo()
+	{
+		System.out.printf("%nName: %s%n", this.name);
+		System.out.printf("Address: %s%n", this.address);
+		System.out.printf("Age: %d%n", this.age);
+		System.out.printf("Phone Number: %s%n%n", this.num);
+	}
+	
 	public String getName()
 	{
 		return this.name;
@@ -44,14 +52,6 @@ public class PersonalInfo {
 	public String getNum()
 	{
 		return this.num;
-	}
-
-	public void printInfo()
-	{
-		System.out.printf("%nName: %s%n", this.name);
-		System.out.printf("Address: %s%n", this.address);
-		System.out.printf("Age: %d%n", this.age);
-		System.out.printf("Phone Number: %s%n%n", this.num);
 	}
 
 	public void setName(String name)

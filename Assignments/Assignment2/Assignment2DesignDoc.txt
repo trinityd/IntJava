@@ -11,4 +11,6 @@ Part 1:
 Part 2:
 
 	Design and Documentation:
-		To build the Coin class, a constructor that set the only variable (which side of the coin is up), a get method to return that variable, a toss method, and a method that repeats and prints the result of that tossing 20 times in a row were all created. See Coin.java for these methods.
+		To build the Coin class, the following were made: a constructor that set the only variable (which side of the coin is up), a get method to return that variable, and a toss method.
+
+		To build the Simulation class,the following were made: a method that repeats and prints the result of that tossing 20 times in a row were all created.
