@@ -1,0 +1,136 @@
+Friend Trinity Dickinson
+CIS 36B-61Y, Professor Singh
+Assignment 3 Test Run
+Due: 11/1/2017
+
+Store #1:
+Total Sales for Each Week:
+	Week 1: 16419.52
+	Week 2: 20615.00
+	Week 3: 24878.00
+	Week 4: 29141.00
+	Week 5: 33404.00
+Average Daily Sales for Each Week:
+	Week 1: 2345.65
+	Week 2: 2945.00
+	Week 3: 3554.00
+	Week 4: 4163.00
+	Week 5: 4772.00
+Total Sales for All Weeks:
+	124457.52
+Average Weekly Sales:
+	24891.50
+Week w/ Highest Amount in Sales:
+	5
+Week w/ Lowest Amount in Sales:
+	1
+
+Store #2:
+Total Sales for Each Week:
+	Week 1: 12919.52
+	Week 2: 17115.00
+	Week 3: 21378.00
+	Week 4: 25641.00
+	Week 5: 29904.00
+Average Daily Sales for Each Week:
+	Week 1: 1845.65
+	Week 2: 2445.00
+	Week 3: 3054.00
+	Week 4: 3663.00
+	Week 5: 4272.00
+Total Sales for All Weeks:
+	106957.52
+Average Weekly Sales:
+	21391.50
+Week w/ Highest Amount in Sales:
+	5
+Week w/ Lowest Amount in Sales:
+	1
+
+Store #3:
+Total Sales for Each Week:
+	Week 1: 19919.52
+	Week 2: 24115.00
+	Week 3: 28378.00
+	Week 4: 32641.00
+	Week 5: 36904.00
+Average Daily Sales for Each Week:
+	Week 1: 2845.65
+	Week 2: 3445.00
+	Week 3: 4054.00
+	Week 4: 4663.00
+	Week 5: 5272.00
+Total Sales for All Weeks:
+	141957.52
+Average Weekly Sales:
+	28391.50
+Week w/ Highest Amount in Sales:
+	5
+Week w/ Lowest Amount in Sales:
+	1
+
+Store #4:
+Total Sales for Each Week:
+	Week 1: 23573.38
+	Week 2: 27768.86
+	Week 3: 32031.86
+	Week 4: 36294.86
+	Week 5: 40557.86
+Average Daily Sales for Each Week:
+	Week 1: 3367.63
+	Week 2: 3966.98
+	Week 3: 4575.98
+	Week 4: 5184.98
+	Week 5: 5793.98
+Total Sales for All Weeks:
+	160226.81
+Average Weekly Sales:
+	32045.36
+Week w/ Highest Amount in Sales:
+	5
+Week w/ Lowest Amount in Sales:
+	1
+
+Store #5:
+Total Sales for Each Week:
+	Week 1: 16459.07
+	Week 2: 20654.55
+	Week 3: 24917.55
+	Week 4: 29180.55
+	Week 5: 33443.55
+Average Daily Sales for Each Week:
+	Week 1: 2351.30
+	Week 2: 2950.65
+	Week 3: 3559.65
+	Week 4: 4168.65
+	Week 5: 4777.65
+Total Sales for All Weeks:
+	124655.27
+Average Weekly Sales:
+	24931.05
+Week w/ Highest Amount in Sales:
+	5
+Week w/ Lowest Amount in Sales:
+	1
+
+Store #6:
+Total Sales for Each Week:
+	Week 1: 26912.45
+	Week 2: 31107.93
+	Week 3: 35370.93
+	Week 4: 39633.93
+	Week 5: 43896.93
+Average Daily Sales for Each Week:
+	Week 1: 3844.64
+	Week 2: 4443.99
+	Week 3: 5052.99
+	Week 4: 5661.99
+	Week 5: 6270.99
+Total Sales for All Weeks:
+	176922.19
+Average Weekly Sales:
+	35384.44
+Week w/ Highest Amount in Sales:
+	5
+Week w/ Lowest Amount in Sales:
+	1

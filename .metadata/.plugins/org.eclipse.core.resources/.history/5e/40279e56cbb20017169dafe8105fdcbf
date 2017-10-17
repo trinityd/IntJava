@@ -1,0 +1,11 @@
+import java.io.*;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		System.out.println(new File(".").getAbsoluteFile());
+		FileIO a1 = new FileIO("salesdat.txt");
+		Franchise f = a1.readData();
+	}
+
+}
