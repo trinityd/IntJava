@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item value="632" key="DIALOG_X_ORIGIN"/>
 		<item value="132" key="DIALOG_Y_ORIGIN"/>
@@ -18,12 +19,20 @@
 		<list key="orderedElements">
 			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.ui.preferencePages.Keys)"/>
 		</list>
+=======
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="true" key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="527" key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH"/>
+		<item value="false" key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="602" key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT"/>
+>>>>>>> master
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
 			<item value="keys"/>
 		</list>
+<<<<<<< HEAD
 	</section>
 	<section name="PreferencesImportWizard">
 		<item value="C:\Users\Trinity\Downloads\Setups\eclipseKeys.csv" key=""/>
@@ -39,5 +48,28 @@
 		<item value="375" key="DIALOG_HEIGHT"/>
 		<item value="21" key="DIALOG_X_ORIGIN"/>
 		<item value="185" key="DIALOG_Y_ORIGIN"/>
+=======
+		<list key="orderedElements">
+			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.ui.preferencePages.Keys)"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="49" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item value="true" key="uncategorizedFilter"/>
+		<item value="true" key="internalFilter"/>
+		<item value="true" key="actionSetFilter"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+>>>>>>> master
 	</section>
 </section>

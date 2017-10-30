@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		String path = (new File("/").getAbsoluteFile()).toString();
+		path+="salesdat.txt";
+		System.out.println(path);
+		FileIO a1 = new FileIO(path);
+		Franchise f = a1.readData();
+	}
+
+}
